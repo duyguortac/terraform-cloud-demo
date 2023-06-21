@@ -1,14 +1,9 @@
 output private_subnets {
-    value = module.vpc.
-
-
-
-
-
+ value = module.vpc.private_subnets
+}
 
 
 
     output public_subnets {
-        value = module.vpc.
+        value = module.vpc.public_subnets
     }
-}
